@@ -5,7 +5,7 @@ FROM amazoncorretto:21-alpine
 WORKDIR /app
 
 # Copy the jar file
-COPY app/target/user-app-1.0.0.jar app.jar
+COPY target/*.jar app.jar
 
 # Expose application port
 EXPOSE 8080

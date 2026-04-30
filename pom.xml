@@ -96,7 +96,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
 <configuration>
      <mainClass>com.example.user.UserApplication</mainClass>
-<configuration>
+</configuration>
                 
             </plugin>
 

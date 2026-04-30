@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-app
-          image: 913073094140.dkr.ecr.ap-south-1.amazonaws.com/javareporepo:latest
+          image: 232778955975.dkr.ecr.ap-south-1.amazonaws.com/javareporepo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
